@@ -7,7 +7,7 @@ function createRandomCollage(containerId, numberOfImages) {
 
   for (let i = 1; i <= numberOfImages; i++) {
     const img = document.createElement('img');
-    img.src = `assets/images/jpg/Photo (${i}).JPG`;
+    img.src = 'assets/images/jpg/Photo (${i}).JPG';
     img.classList.add('collage-image');
 
     // Start hidden for fade-in
