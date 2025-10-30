@@ -75,3 +75,101 @@ h1 {
   from { opacity: 0; transform: translateY(20px); }
   to { opacity: 1; transform: translateY(0); }
 }
+
+.quote-section {
+  width: 70%;
+  margin: auto;
+  padding: 3rem;
+  color: #cdefff;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  animation: fadeIn 3s ease;
+}
+
+.quote-section h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #b2f2ff;
+  text-shadow: 0 0 10px #7be0ff;
+}
+
+.chatbot-container {
+  background: radial-gradient(circle at 30% 40%, #111, #000);
+}
+
+#chatbox {
+  margin-top: 2rem;
+  height: 40vh;
+  width: 100%;
+  overflow-y: auto;
+  border: 1px solid #444;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  font-family: monospace;
+}
+
+#userQuestion {
+  width: 80%;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-family: 'Georgia', serif;
+}
+
+#askBtn {
+  margin-left: 10px;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #78d9ff;
+  color: black;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#askBtn:hover {
+  background-color: #a9e2ff;
+}
+
+.user-text, .bot-text {
+  margin-top: 1rem;
+  white-space: pre-wrap;
+}
+
+.user-text {
+  color: #b2f2ff;
+}
+
+.bot-text {
+  color: #ddd;
+  margin-left: 1rem;
+}
+
+.page-nav {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 100;
+}
+
+.page-nav a {
+  color: #78d9ff;
+  text-decoration: none;
+  font-size: 0.95rem;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 6px 12px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.page-nav a:hover {
+  background: rgba(120, 217, 255, 0.2);
+  text-shadow: 0 0 6px #78d9ff;
+}

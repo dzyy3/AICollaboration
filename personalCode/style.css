@@ -33,3 +33,32 @@
     right: 0;
     width: 50%;
 }
+
+.essay-container {
+  max-width: 800px;
+  margin: 5rem auto;
+  padding: 2rem;
+  color: #e6faff;
+  line-height: 1.8;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(120, 217, 255, 0.2);
+}
+
+.essay-container h1 {
+  color: #b2f2ff;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 2rem;
+  color: #aaa;
+}
+
+#essay-content {
+  font-size: 1.1rem;
+  white-space: pre-line;
+}
